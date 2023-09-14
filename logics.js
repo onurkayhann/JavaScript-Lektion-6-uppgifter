@@ -38,3 +38,12 @@ var myCities = [
 console.log(myCities); // Shows all cities in the array
 console.log(myCities[5]); // Shows the last city
 console.log('The last city in the array is: ' + myCities[myCities.length - 1]); // Shows the last city in different way
+
+// UPPGIFT #4
+
+// This code below prints out the users typed user name in p within div
+// Test yourself
+var myUserName = prompt();
+console.log(myUserName);
+
+document.getElementById('userName').innerHTML = myUserName;
