@@ -24,6 +24,19 @@ console.log('Is this true or false? ' + myBool); // Shows the boolean
 
 // UPPGIFT #3
 
+function myArrays() {
+    // Printing out the last city in the array:
+    console.log(myCities); // Shows all cities in the array
+    console.log(myCities[5]); // Shows the last city
+}
+
+function showLastCity() {
+    console.log(
+        'The last city in the array is: ' + myCities[myCities.length - 1]
+    ); // Shows the last city in different way
+    console.log(myCities[5]); // Shows the last city
+}
+
 // My array of cities:
 var myCities = [
     'Barcelona',
@@ -43,7 +56,23 @@ console.log('The last city in the array is: ' + myCities[myCities.length - 1]); 
 
 // This code below prints out the users typed user name in p within div
 // Test yourself
-var myUserName = prompt();
-console.log(myUserName);
 
-document.getElementById('userName').innerHTML = myUserName;
+// CODE BELOW IS COMMENTED OUT, I WANT THE USER TO CLICK THE BUTTON AND TRIGGER THE PROMPT INSTEAD
+// var myUserName = prompt();
+// console.log(myUserName);
+
+// document.getElementById('userName').innerHTML = myUserName;
+
+function userName() {
+    var myUserName = prompt('Please type your username:');
+
+    if (myUserName !== null) {
+        document.getElementById('userName').innerHTML =
+            'Your username is: ' + myUserName;
+        console.log(myUserName);
+    } else {
+        return false;
+    }
+}
+
+// UPPGIFT #5
