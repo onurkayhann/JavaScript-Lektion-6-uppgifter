@@ -35,4 +35,6 @@ var myCities = [
 ];
 
 // Printing out the last city in the array:
-console.log('The last city in the array is: ' + myCities[myCities.length - 1]);
+console.log(myCities); // Shows all cities in the array
+console.log(myCities[5]); // Shows the last city
+console.log('The last city in the array is: ' + myCities[myCities.length - 1]); // Shows the last city in different way
