@@ -21,3 +21,18 @@ console.log('My name is ' + myName); // Shows my name
 var myBool = true;
 console.log(typeof myBool); // Shows the type
 console.log('Is this true or false? ' + myBool); // Shows the boolean
+
+// UPPGIFT #3
+
+// My array of cities:
+var myCities = [
+    'Barcelona',
+    'London',
+    'Prague',
+    'Rome',
+    'Istanbul',
+    'Stockholm',
+];
+
+// Printing out the last city in the array:
+console.log('The last city in the array is: ' + myCities[myCities.length - 1]);
